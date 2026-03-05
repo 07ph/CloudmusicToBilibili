@@ -29,7 +29,7 @@ class PlaylistToolGUI:
         
         self.link_entry = ttk.Entry(main_frame, width=60)
         self.link_entry.grid(row=0, column=1, sticky=(tk.W, tk.E), pady=5, padx=5)
-        self.link_entry.insert(0, "https://music.163.com/playlist?id=6940665039")
+        self.link_entry.insert(0, "https://music.163.com/playlist?id=8263256851")
         
         button_frame = ttk.Frame(main_frame)
         button_frame.grid(row=1, column=0, columnspan=2, pady=10)
